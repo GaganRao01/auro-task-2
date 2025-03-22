@@ -10,10 +10,11 @@ Auro Tutor is a key feature in Auro.Edu, designed to assist learners in understa
 ### ⚠️ Current Limitations
 The current Auro Tutor has several critical issues that negatively impact the user experience:
 
-#### **Reading Module Limitations:**
-1. **Content Unawareness** – The Tutor cannot access or process reading material, making it ineffective for content-specific questions.
-2. **Copy Restriction** – Users cannot copy text, limiting note-taking and research capabilities.
-3. **Lack of Contextual Understanding** – Responses are often generic and fail to consider highlighted text.
+#### **Reading Module Limitations for each chapters inside the course content:**
+1. **Content awareness** – The Tutor has access or processes reading material, but is ineffective of understanding the material. It answers the first question but does'nt answer the follow up questions accurately when the follow-up question is a different topic from the first question.
+provides only basic definitions, lacking depth, personalie and real-world examples.                                                                                                                                                                                                                                                                                                                                             
+3. **Copy Restriction** – Users cannot copy text, limiting note-taking and research capabilities.
+4. **Lack of Contextual Understanding** – Responses are often generic and rule oreiented fail to provide an personalized answer.
 
 #### **Video Module Limitations:**
 4. **Lack of Temporal Context** – The Tutor does not understand questions tied to specific video timestamps (e.g., "Explain what was said at 2:30").
@@ -22,23 +23,28 @@ The current Auro Tutor has several critical issues that negatively impact the us
 #### **Flashcard Module Limitations:**
 6. **Superficial Understanding** – The Tutor provides only basic definitions, lacking depth and real-world examples.
 
-#### **Quiz Module Limitations:**
-7. **Pre-Answer Help Limitation** – The Tutor offers no assistance or clarification before answer submission.
+#### **Revision Plan for Final Exam Tutor Limitations:**
+7. **Pre-Answer Help Limitation** – The Tutor only offers 2 options (i). Revise weak concepts. (ii). Revise questions you got wrong. there is no text box for the user to enter question manually instead of searching the pre tabs.
 8. **Post-Answer Explanation Absence** – The Tutor only reveals the correct/incorrect answer without providing explanatory reasoning.
 9. **Inaccurate "Weak Concepts" Identification** – The "Revision Plan" incorrectly identifies weak areas, leading to a non-personalized and inefficient review process.
 
 #### **General Limitations Across Modules:**
 10. **Limited Conversational Memory** – The Tutor does not remember past interactions, making multi-step queries frustrating.
 11. **Keyword Reliance** – Answers are based on keyword matching rather than true comprehension.
-12. **No Text Input Box** – Users cannot freely type complex or multi-part questions.
+12. **No Text Input Box in the Revision Plan for Final Exam Tutor** – Users cannot freely type complex or multi-part questions.
 13. **Lack of Personalization** – The Tutor does not tailor responses based on user progress or weak areas.
 
 ### 🚀 Proposed Improvements
-1. **Persistent Tutor Access** – The Auro Tutor should be available at all times within the reading module, accessible via a floating icon.
-2. **Deep Content Understanding** – The Tutor should leverage Generative AI (LLM + RAG) to process and understand the full reading material.
-3. **Text Highlight & Copy** – Users should be able to highlight text for instant explanations and have the option to copy content for better note-taking.
-4. **Smart Contextual Responses** – Instead of generic answers, the Tutor should generate detailed responses based on highlighted text and previous interactions.
-5. **Conversational Memory** – The Tutor should remember past queries within a session, allowing for a natural, multi-turn conversation.
+- **Enable Contextual AI Processing** – Implement LLM + RAG for improved reading comprehension and precise responses.
+- **Allow Text Highlighting & Copying** – Give users the ability to copy text for better note-taking and research.
+- **Improve Context Awareness in Videos** – Link responses to specific timestamps and integrate transcript-based answers.
+- **Expand Flashcard Explanations** – Provide deeper insights and real-world examples beyond basic definitions.
+- **Enhance Quiz Assistance** – Offer hints before answering and provide detailed post-answer explanations.
+- **Refine Weak Concept Identification** – Improve adaptive learning to personalize revision plans more effectively.
+- **Introduce Session-Based Memory** – Maintain conversational context for a smoother and more interactive learning experience.
+- **Move from Keyword Matching to True Comprehension** – Use AI to understand intent rather than just scanning for keywords.
+- **Add a Free-Form Text Input Box** – Allow users to ask complex, multi-part questions freely.
+- **Personalized Learning Paths** – Adapt responses based on user history, progress, and weak areas.
 
 ### 🖌️ Low-Fidelity Wireframe
 To visualize the improved Auro Tutor, I’ve created a wireframe in Figma showcasing the new features and user flow.
@@ -50,9 +56,9 @@ To visualize the improved Auro Tutor, I’ve created a wireframe in Figma showca
 ## 🔄 User Journey - Improved Tutor in Action
 1. **User enters the reading module** – They begin engaging with the course content.
 2. **Seeking Help (Highlighting Text)**
-   - User highlights a confusing sentence.
-   - A floating "Auro Tutor" icon appears next to the highlighted text.
-   - User clicks the icon to get an instant explanation.
+   - User copies a confusing sentence.
+   - A floating "Auro Tutor" icon appears at the right down corner of the screen.
+   - User pastes the confusing sentence and clicks the icon to get an instant explanation.
    - Tutor provides an AI-generated, context-aware response.
 3. **Copy Functionality**
    - User can copy highlighted text for note-taking.
