@@ -7,6 +7,32 @@ Hey everyone! This is my submission for the second task assigned by Auro as part
 
 Auro Tutor is a key feature in Auro.Edu, designed to assist learners in understanding course material. However, the current implementation has major limitations that hinder its effectiveness. My proposed improvements focus on making the tutor more context-aware and interactive, ensuring a smoother and more intuitive learning experience.
 
+### ⚠️ Current Limitations
+The current Auro Tutor has several critical issues that negatively impact the user experience:
+
+#### **Reading Module Limitations:**
+1. **Content Unawareness** – The Tutor cannot access or process reading material, making it ineffective for content-specific questions.
+2. **Copy Restriction** – Users cannot copy text, limiting note-taking and research capabilities.
+3. **Lack of Contextual Understanding** – Responses are often generic and fail to consider highlighted text.
+
+#### **Video Module Limitations:**
+4. **Lack of Temporal Context** – The Tutor does not understand questions tied to specific video timestamps (e.g., "Explain what was said at 2:30").
+5. **Transcript Ignorance** – The Tutor cannot answer questions based on the video's exact wording or concepts, even when directly mentioned.
+
+#### **Flashcard Module Limitations:**
+6. **Superficial Understanding** – The Tutor provides only basic definitions, lacking depth and real-world examples.
+
+#### **Quiz Module Limitations:**
+7. **Pre-Answer Help Limitation** – The Tutor offers no assistance or clarification before answer submission.
+8. **Post-Answer Explanation Absence** – The Tutor only reveals the correct/incorrect answer without providing explanatory reasoning.
+9. **Inaccurate "Weak Concepts" Identification** – The "Revision Plan" incorrectly identifies weak areas, leading to a non-personalized and inefficient review process.
+
+#### **General Limitations Across Modules:**
+10. **Limited Conversational Memory** – The Tutor does not remember past interactions, making multi-step queries frustrating.
+11. **Keyword Reliance** – Answers are based on keyword matching rather than true comprehension.
+12. **No Text Input Box** – Users cannot freely type complex or multi-part questions.
+13. **Lack of Personalization** – The Tutor does not tailor responses based on user progress or weak areas.
+
 ### 🚀 Proposed Improvements
 1. **Persistent Tutor Access** – The Auro Tutor should be available at all times within the reading module, accessible via a floating icon.
 2. **Deep Content Understanding** – The Tutor should leverage Generative AI (LLM + RAG) to process and understand the full reading material.
