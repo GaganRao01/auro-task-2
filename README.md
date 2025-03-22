@@ -46,11 +46,11 @@ provides only basic definitions, lacking depth, personalie and real-world exampl
 - **Add a Free-Form Text Input Box** – Allow users to ask complex, multi-part questions freely.
 - **Personalized Learning Paths** – Adapt responses based on user history, progress, and weak areas.
 
-  #### RAG (Retrieval-Augmented Generation) and Context Awareness work with Session-Based Memory and Personalized Learning Paths in Auro Tutor.
+  ## RAG (Retrieval-Augmented Generation) and Context Awareness work with Session-Based Memory and Personalized Learning Paths in Auro Tutor.
   ![RAG and Context Awareness](auro.png)
   
 
-### 🖌️ Low-Fidelity Wireframe
+## 🖌️ Low-Fidelity Wireframe
 To visualize the improved Auro Tutor, I’ve created a wireframe in Figma showcasing the new features and user flow.
 
 [Figma Link: Auro Tutor - Reading Section](https://www.figma.com/design/O8vwJbUUTvXLFwmVlwk8Dj/Gagan-N's-team-library?node-id=3312-2&t=oG0FnrfRwrcZIPWp-1)
