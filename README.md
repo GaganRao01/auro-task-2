@@ -34,7 +34,7 @@ provides only basic definitions, lacking depth, personalie and real-world exampl
 12. **No Text Input Box in the Revision Plan for Final Exam Tutor** – Users cannot freely type complex or multi-part questions.
 13. **Lack of Personalization** – The Tutor does not tailor responses based on user progress or weak areas.
 
-### 🚀 Proposed Improvements
+## 🚀 Proposed Improvements
 - **Enable Contextual AI Processing** – Implement LLM + RAG for improved reading comprehension and precise responses.
 - **Allow Text Highlighting & Copying** – Give users the ability to copy text for better note-taking and research.
 - **Improve Context Awareness in Videos** – Link responses to specific timestamps and integrate transcript-based answers.
