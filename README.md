@@ -61,7 +61,7 @@ To visualize the improved Auro Tutor, I’ve created a wireframe in Figma showca
 1. **User enters the reading module** – They begin engaging with the course content.
 2. **Seeking Help (Highlighting Text)**
    - User copies a confusing sentence.
-   - A floating "Auro Tutor" icon appears at the right down corner of the screen.
+   - A floating "Auro Tutor" icon appears at the right bottom corner of the screen.
    - User pastes the confusing sentence and clicks the icon to get an instant explanation.
    - Tutor provides an AI-generated, context-aware response.
 3. **Copy Functionality**
