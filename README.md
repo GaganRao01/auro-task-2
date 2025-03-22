@@ -53,7 +53,7 @@ provides only basic definitions, lacking depth, personalie and real-world exampl
 ## 🖌️ Low-Fidelity Wireframe
 To visualize the improved Auro Tutor, I’ve created a wireframe in Figma showcasing the new features and user flow.
 
-[Figma Link: Auro Tutor - Reading Section](https://www.figma.com/design/O8vwJbUUTvXLFwmVlwk8Dj/Gagan-N's-team-library?node-id=3312-2&t=oG0FnrfRwrcZIPWp-1)
+[Figma Link: Auro Tutor - Reading Section](https://www.figma.com/design/24Y4120l48MWeBJSZ0RL4D/Gagan-N's-team-library-(Copy)?node-id=3312-2&t=i0YezYxLB8tSoMhy-1)
 
 ---
 
